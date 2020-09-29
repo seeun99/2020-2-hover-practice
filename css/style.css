@@ -1,0 +1,243 @@
+
+.round{
+	background-color: #006a71;
+	height: 80px;
+	width: 80px;
+	border-radius: 60px;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+@keyframes orange{
+	0%{}
+	1%{background-color: white;}
+	100%{background-color: #ff7e67;}
+}
+.orange{
+	animation: orange;
+	animation-duration: 0.8s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	transition-duration: 1s;
+	transition-property: transform;
+}
+.orange:hover{
+	transform: scale(0.9, 0.9);
+	animation-play-state: running;
+}
+
+@keyframes red{
+	0%{}
+	1%{background-color: white;}
+	100%{background-color: #de4463;}
+}
+.red{
+	animation: red;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	transition-duration: 1s;
+	transition-property: transform;
+}
+.red:hover{
+	transform: scale(0.9, 0.9);
+	animation-play-state: running;
+}
+
+.round-img{
+	z-index: 200;
+	position: relative;
+}
+
+@keyframes candycane{
+	0%{}
+	1%{opacity: 1;}
+	100%{transform: rotate(60deg);opacity: 1;}
+}
+#img1{
+	width: 40px;
+	position: absolute;
+	top: -30px;
+	right: 10px;
+	transform: rotate(-30deg);
+	animation: candycane;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+}
+#img1:hover{
+	animation-play-state: running;
+}
+
+@keyframes socks{
+	0%{}
+	1%{opacity: 1;}
+	100%{transform: scale(1, 1);opacity: 1;}
+}
+#img2{
+	width: 100px;
+	position: absolute;
+	top: -60px;
+	left: -20px;
+	transform: scale(0.5, 0.5);
+	animation: socks;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+}
+#img2:hover{
+	animation-play-state: running;
+}
+
+#img3{
+	width: 140px;
+	position: absolute;
+	top: -60px;
+	left: -20px;
+	transform: scale(0.5, 0.5);
+	animation: socks;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+}
+#img3:hover{
+	animation-play-state: running;
+}
+
+@keyframes white-ribbon{
+	0%{}
+	1%{opacity: 1;}
+	100%{transform: scale(1, 1);opacity: 1;}
+}
+#img4{
+	width: 150px;
+	position: absolute;
+	top: -20px;
+	left: -30px;
+	transform: scale(0.5, 0.5);
+	animation: white-ribbon;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+}
+#img4:hover{
+	animation-play-state: running;
+}
+
+#img5{
+	width: 160px;
+	position: absolute;
+	top: -20px;
+	left: -30px;
+	transform: scale(0.5, 0.5);
+	animation: white-ribbon;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+}
+#img5:hover{
+	animation-play-state: running;
+}
+
+@keyframes gift{
+	0%{}
+	1%{opacity: 1;}
+	100%{opacity: 1;}
+}
+#img6{
+	width: 200px;
+	position: absolute;
+	top: -250px;
+	left: -330px;
+	animation: gift;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+	transform: rotate(-15deg);
+}
+#hover:hover #img6{
+	animation-play-state: running;
+}
+
+#img7{
+	width: 230px;
+	position: absolute;
+	top: -200px;
+	left: 320px;
+	animation: gift;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+	transform: rotate(-15deg);
+}
+#hover:hover #img7{
+	animation-play-state: running;
+}
+
+#img8{
+	width: 160px;
+	position: absolute;
+	top: -180px;
+	left: -350px;
+	animation: gift;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+	transform: rotate(15deg);
+}
+#hover:hover #img8{
+	animation-play-state: running;
+}
+
+#img9{
+	width: 120px;
+	position: absolute;
+	top: -110px;
+	left: -20px;
+	animation: gift;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	opacity: 0;
+}
+#hover:hover #img9{
+	animation-play-state: running;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
